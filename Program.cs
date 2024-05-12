@@ -28,6 +28,8 @@ void Array2IF(string[] array1, string[] array2)
     }
 }
 
+Console.WriteLine("Изначальный массив строк :");
+PrintArray(array1);
 Array2IF(array1, array2);
 Console.WriteLine("Выводим строки длина которых меньше, либо равна 3 символам :");
 PrintArray(array2);
